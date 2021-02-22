@@ -34,7 +34,7 @@ function recursion(leve1, ...params) {
 ### 2.1 分治 ###
 **本质：找出重复性**
 分治代码模板
-`
+```
 function divide_conquer(problem, ...params) {
     // recursion terminator 
     if (problem === null) {
@@ -53,7 +53,7 @@ function divide_conquer(problem, ...params) {
     result = process_result(subresult1, subresult2, subresult3, ...)
     // revert the current level states
 }
-`
+```
 
 ### 2.2 回溯 ###
 **回溯法采用试错的思想，尝试分布的去解决一个问题，通常用递归法来实现**
